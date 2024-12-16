@@ -1,0 +1,252 @@
+{
+  "employees": [
+    {
+      "id": "EMP_mWe0K",
+      "employeeId": "EMP_mWe0K",
+      "nic": "2132435465768",
+      "firstName": "Suriya",
+      "lastName": "Nilukshan",
+      "dob": "2000-07-25",
+      "doj": "2024-10-01"
+    },
+    {
+      "id": "EMP_8sJRR",
+      "employeeId": "EMP_8sJRR",
+      "nic": "2323434545",
+      "firstName": "Karthik",
+      "lastName": "Mithu",
+      "dob": "2001-12-09",
+      "doj": "2024-09-11"
+    },
+    {
+      "id": "EMP_OhcOo",
+      "employeeId": "EMP_OhcOo",
+      "nic": "6456554332",
+      "firstName": "Dhanush",
+      "lastName": "Billa",
+      "dob": "1993-06-08",
+      "doj": "2024-06-13"
+    },
+    {
+      "id": "EMP_ruILF",
+      "employeeId": "EMP_ruILF",
+      "nic": "1242523635v",
+      "firstName": "Selvarasa",
+      "lastName": "Ignatious",
+      "dob": "1979-07-04",
+      "doj": "2022-12-14"
+    },
+    {
+      "id": "EMP_rlqe1",
+      "employeeId": "EMP_rlqe1",
+      "nic": "200132344565",
+      "firstName": "Rockey",
+      "lastName": "Bhaai",
+      "dob": "1987-06-09",
+      "doj": "2023-02-09"
+    },
+    {
+      "id": "EMP_pauqH",
+      "employeeId": "EMP_pauqH",
+      "nic": "9878676544v",
+      "firstName": "Emy",
+      "lastName": "Jackson",
+      "dob": "1975-06-10",
+      "doj": "2006-10-17"
+    },
+    {
+      "id": "EMP_btEgf",
+      "employeeId": "EMP_btEgf",
+      "nic": "132356576657",
+      "firstName": "Arun",
+      "lastName": "Kumar",
+      "dob": "2024-10-09",
+      "doj": "2024-12-06"
+    }
+  ],
+  "users": [
+    {
+      "username": "EMP_mWe0K",
+      "password": "CEO123",
+      "role": "CEO",
+      "employeeId": "EMP_mWe0K",
+      "id": "EMP_mWe0K"
+    },
+    {
+      "username": "EMP_8sJRR",
+      "password": "123",
+      "role": "Manager",
+      "employeeId": "EMP_8sJRR",
+      "id": "EMP_8sJRR"
+    },
+    {
+      "username": "EMP_OhcOo",
+      "password": "pwd123",
+      "role": "Employee",
+      "employeeId": "EMP_OhcOo",
+      "id": "EMP_OhcOo"
+    },
+    {
+      "username": "EMP_ruILF",
+      "password": "A123",
+      "role": "Admin",
+      "employeeId": "EMP_ruILF",
+      "id": "EMP_ruILF"
+    },
+    {
+      "username": "EMP_rlqe1",
+      "password": "pwd123",
+      "role": "Employee",
+      "employeeId": "EMP_rlqe1",
+      "id": "EMP_rlqe1"
+    },
+    {
+      "username": "EMP_pauqH",
+      "password": "pwd123",
+      "role": "Employee",
+      "employeeId": "EMP_pauqH",
+      "id": "EMP_pauqH"
+    },
+    {
+      "id": "EMP_aR8I1",
+      "employeeId": "EMP_aR8I1",
+      "username": "EMP_aR8I1",
+      "password": "pwd123",
+      "role": "Employee"
+    },
+    {
+      "id": "EMP_btEgf",
+      "employeeId": "EMP_btEgf",
+      "username": "EMP_btEgf",
+      "password": "pwd123",
+      "role": "Employee"
+    }
+  ],
+  "leaveRequests": [
+    {
+      "id": "a4a4",
+      "employeeId": "EMP_mWe0K",
+      "reason": "Go To Hospital.",
+      "dateFrom": "2024-10-10",
+      "numOfDays": "2",
+      "applicationDate": "2024-10-07",
+      "status": "Approved",
+      "employee": {
+        "id": "EMP_mWe0K",
+        "employeeId": "EMP_mWe0K",
+        "nic": "2132435465768",
+        "firstName": "Suriya",
+        "lastName": "Nilukshan",
+        "dob": "2000-07-25",
+        "doj": "2024-10-01"
+      },
+      "processedDate": "2024-10-30"
+    },
+    {
+      "id": "99dd",
+      "employeeId": "EMP_mWe0K",
+      "reason": "School Trip",
+      "dateFrom": "2024-10-17",
+      "numOfDays": "1",
+      "applicationDate": "2024-10-01",
+      "status": "Rejected",
+      "employee": {
+        "id": "EMP_mWe0K",
+        "employeeId": "EMP_mWe0K",
+        "nic": "2132435465768",
+        "firstName": "Suriya",
+        "lastName": "Nilukshan",
+        "dob": "2000-07-25",
+        "doj": "2024-10-01"
+      },
+      "processedDate": "2024-10-30",
+      "rejectionReason": "Not finish your Work Because Tomorow I Should submit project"
+    },
+    {
+      "id": "dae4",
+      "employeeId": "EMP_OhcOo",
+      "reason": "Feaver",
+      "dateFrom": "2024-11-09",
+      "numOfDays": "1",
+      "applicationDate": "2024-11-07",
+      "status": "Approved",
+      "employee": {
+        "id": "EMP_OhcOo",
+        "employeeId": "EMP_OhcOo",
+        "nic": "6456554332",
+        "firstName": "Dhanush",
+        "lastName": "Billa",
+        "dob": "1993-06-08",
+        "doj": "2024-06-13"
+      },
+      "processedDate": "2024-11-03"
+    },
+    {
+      "id": "448a",
+      "employeeId": "EMP_mWe0K",
+      "reason": "Go to Trip",
+      "dateFrom": "2024-11-21",
+      "numOfDays": "2",
+      "applicationDate": "2024-10-15",
+      "status": "Rejected",
+      "employee": {
+        "id": "EMP_mWe0K",
+        "employeeId": "EMP_mWe0K",
+        "nic": "2132435465768",
+        "firstName": "Suriya",
+        "lastName": "Nilukshan",
+        "dob": "2000-07-25",
+        "doj": "2024-10-01"
+      },
+      "processedDate": "2024-11-10",
+      "rejectionReason": "Work Important"
+    },
+    {
+      "id": "aa01",
+      "employeeId": null,
+      "reason": "Go To Hospital for Clinic",
+      "dateFrom": "2024-11-12",
+      "numOfDays": "2",
+      "applicationDate": "2024-11-03",
+      "status": "Approved",
+      "employee": {
+        "id": "EMP_FTVcd",
+        "employeeId": "EMP_FTVcd",
+        "nic": "3455664325v",
+        "firstName": "Sekaran",
+        "lastName": "Nitharshan",
+        "dob": "2001-02-09",
+        "doj": "2024-11-13"
+      },
+      "processedDate": "2024-11-09"
+    },
+    {
+      "id": "f7f7",
+      "employeeId": "EMP_OhcOo",
+      "reason": "Vacation",
+      "dateFrom": "2024-12-17",
+      "numOfDays": "2",
+      "applicationDate": "2024-12-12",
+      "status": "Pending"
+    },
+    {
+      "id": "626a",
+      "employeeId": null,
+      "reason": "Go to Wedding Function",
+      "dateFrom": "2024-12-24",
+      "numOfDays": "2",
+      "applicationDate": "2024-12-03",
+      "status": "Approved",
+      "employee": {
+        "id": "EMP_IX14s",
+        "employeeId": "EMP_IX14s",
+        "nic": "132356576657",
+        "firstName": "Arun",
+        "lastName": "Kumar",
+        "dob": "1993-06-15",
+        "doj": "2021-06-16"
+      },
+      "processedDate": "2024-12-16"
+    }
+  ]
+}
